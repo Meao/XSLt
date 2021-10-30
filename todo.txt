@@ -1,0 +1,59 @@
+﻿1. Please complite XSLT test task (сделать xslt-файл для трансформации test.xml. Результат трансформации должен содержать отфильтрованные accountTransaction ноды, оставить только те accountTransaction узлы, которые:
+ - имеют ноду updateDate со значением 2012-12-12;
+И
+ - значение ноды spValue начинается на BT.).
+
+The file onnomatch.xsl makes a copy with the beginning of the initial xml file included, test.xsl adds namespace to each node, leaves out header, valid and party nodes, works slower than onnomatch.xsl.
+
+2. Please explain what is XSD, show examples of financial XSD.
+
+XSD is a quality control language that makes sure that information in an XML file is described clearly and has a way to be validated.
+
+XSD stands for XML Schema Definition where schema is a standard way to structure information. 
+
+Personally, I see XSD vs XML as TypeScript vs JavaScript or use of mypy library vs pure Python.
+
+I viewed examples of financial XSD on this website: https://schemas.liquid-technologies.com/FpML/5.6/?page=example-extension-5-6_xsd.html
+
+3. Please find information about ETL and explain in your words where and how you would use it.
+
+ETL is a procedure consisting of 3 stages: 
+extract (data collection and verfification), 
+transform (data filtering and homogeinisation according to the destination parameters using tools like deserialisation, merge, aggregation etc.),
+load (data transfer to the file or warehouse where it needs to be kept and used).
+I would use it if I needed to consolidate data from different departments of a large company or to depersonalise data for analisys purposes.
+
+4. Please write a working step-by-step plan/report of most interesting project of your career.
+
+I think the most interesting project is yet to come in my career. For the moment let me write the steps of the Diploma project:
+ 
+Selected and researched the subject area, conducted an analysis of research in the areas of project management, time, motivation, dialog artificial intelligence. 
+Analysis of competitors, considered the existing developments in the closest related areas.  
+09.2020-10.2020
+Terms of Reference. Formulation of requirements. Definition of the structure of the application.
+Layout of the site.
+Comparison and selection of programming languages, frameworks, DBMS, chatbots, language libraries.
+Received feedback from supervisor, refined plan for further development.
+10.2020-11.2020
+Initial design of system architecture.
+Development of application framework. Static public pages.
+Nested user profile application.
+Nested application with "priority matrix" and "kanban table" tools.
+11.2020-12.2020
+Timer component.
+Nested application control panel with user output.
+Received feedback from supervisor, finalized plan for further development.
+12.2020-01.2021
+Chat bot - creating a library of responses based on recommendations from various books on project management and psychology.
+01.2021-02.2021
+Development of a bot that responds to user questions. Web service deployed at http://time-estim.herokuapp.com/.
+02.2021-03.2021
+Defining quality criteria. Testing of developed application. Modification. Respondents left positive feedback, the web application successfully
+passed testing. Approval.
+04.2021-05.2021
+Description of the main directions of further improvement of the created product. Demonstration of the diploma - presentation of the project.
+06.2021-07.2021
+
+
+xml test online https://xslttest.appspot.com/ xml text test online https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog_filter
+docs https://www.w3.org/TR/xslt-30/ https://www.saxonica.com/html/documentation10/xsl-elements/mode.html
